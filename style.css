@@ -1,6 +1,7 @@
+
 :root{
-    --branco:#FFFFFF;
-    --cinza:#F9F9F9;
+    --branco: #FFFFFF;
+    --cinza: #F9F9F9;
     --azul:#167BF7;
     --fundo:#00030C;
 }
@@ -8,7 +9,21 @@ body{
     background-color: var(--fundo);
     color: var(--branco);
 }
+
 *{
     margin: 0;
     padding: 0;
+}
+
+.principal{
+
+    background-image:url(Background.png) ;
+    background-repeat: no-repeat;
+}
+.container{
+    background-color: var(--azul);
+    color: var(--branco);
+    padding: 1em;
+    border-radius: 5px;
+    display: block;
 }
